@@ -50,3 +50,59 @@ npm run build
 # or
 yarn build
 ```
+
+# Project Configuration
+
+## Tailwind CSS  
+Tailwind CSS is used for styling.
+
+## Zustand  
+Zustand is used for state management. The state is managed in the `src/store` directory.
+
+## TypeScript  
+TypeScript is used for type checking.
+
+---
+
+## Components  
+
+### Navbar  
+- Responsible for navigation and theme toggle.  
+
+### UserList  
+- Displays the list of users.  
+- Allows adding, editing, and deleting users.  
+
+### RolesList  
+- Displays the list of roles.  
+- Allows adding, editing, and deleting roles.  
+
+### PermissionList  
+- Displays the list of permissions.  
+- Allows adding, editing, and deleting permissions.  
+
+### ThemeToggle  
+- Enables switching between light, dark, and system themes.  
+
+### Modal  
+- Used for displaying forms and other content in a modal dialog.
+
+---
+
+## State Management  
+
+### Theme Store  
+- Manages the theme state (light, dark, system).  
+- Persists state using `zustand` and `zustand/middleware`.  
+
+### RBAC Store  
+- Manages the state for users, roles, and permissions using `zustand`.  
+
+---
+
+## Acknowledgements  
+- [React](https://reactjs.org/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Zustand](https://github.com/pmndrs/zustand)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [Vite](https://vitejs.dev/)
