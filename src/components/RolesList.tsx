@@ -4,7 +4,7 @@ import { useRBACStore } from '../store/rbacStore';
 import type { Role } from '../types/rbac';
 
 export const RolesList: React.FC = () => {
-  const { roles, permissions } = useRBACStore();
+  const { roles } = useRBACStore();
 
   const getPermissionCount = (role: Role) => role.permissions.length;
 
